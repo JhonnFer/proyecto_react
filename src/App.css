@@ -1,0 +1,50 @@
+.App {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+  text-align:center; 
+}
+
+header {
+  background-color: #b0e5ffd3;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  
+  
+}
+ul, ol {
+  list-style-position: inside; /* Mueve las viñetas/números dentro del contenedor */
+  padding: 0; /* Elimina el espacio de relleno predeterminado */
+  margin: 0 auto; /* Centra la lista */
+  text-align: center; /* Centra el texto de los ítems */
+}
+
+section {
+  margin-bottom: 20px;
+  background-color: rgba(184, 168, 242, 0.868);
+}
+
+.gallery {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.gallery div {
+  text-align: center;
+}
+
+.gallery img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.gallery p {
+  margin-top: 10px;
+  font-weight: bold;
+}
